@@ -1,0 +1,21 @@
+<?php
+return [
+	'user'                => 'User',
+	'user_deleted'        => 'was deleted successfully.',
+	'user_not_found'      => 'User not found.',
+	'no_permission'       => 'No permission.',
+	'last_superadmin'     => 'At least one superadmin must remain.',
+	'cannot_delete_self'  => 'You cannot delete yourself.',
+	'no_authorization' => 'No authorization.',
+	'user_created' => 'User successfully created.',
+	'create_user' => 'Create User',
+	'username' => 'Username',
+	'first_name' => 'First Name',
+	'last_name' => 'Last Name',
+	'language' => 'Language',
+	'password' => 'Password',
+	'rights' => 'Rights',
+	'rights_registered' => 'Registered',
+	'rights_admin' => 'Admin',
+	'rights_superadmin' => 'Superadmin',
+];
