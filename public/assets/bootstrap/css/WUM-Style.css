@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/*!
+* Bootstrap Grid v5.3 (https://getbootstrap.com/)
+*
+* Marko Jorissen
+*/
+
+
+body
+{
+	color: #ffff00;
+	background-color: #0d6efd;
+	padding-top: 0.5rem;;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	padding-bottom: 20px;
+	scroll-behavior: smooth;
+}
+.nav-item
+{
+	font-size: x-large;
+	
+}
+.card {
+	margin-left: 10px;
+}
+/*!
+*
+* Footer
+*/
+
+.b-footer-divider {
+	height: 3rem;
+	background-color: rgba(0, 0, 0, .1);
+	border: solid rgba(0, 0, 0, .15);
+	border-width: 1px 0;
+	box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.bi {
+	vertical-align: -.125em;
+	fill: currentColor;
+}
+
+/*!
+*
+* language
+*/
+
+.language-switcher {
+	font-family: Arial, sans-serif;
+	margin-bottom: 1rem;
+}
+
+.language-switcher .active-language {
+	font-weight: bold;
+	color: #FFD700; /* Golden yellow */
+	margin-right: 1rem;
+	cursor: default;
+}
+
+.language-switcher .inactive-language {
+	font-size: 1.5rem; /* Flaggen größer */
+	margin-right: 0.5rem;
+	text-decoration: none;
+	color: #ffffff; /* white */
+	cursor: pointer;
+	transition: transform 0.2s;
+}
+
+.language-switcher .inactive-language:hover {
+	transform: scale(1.5);
+}
+
+/*!
+*
+* formular
+*/
+
+.btn-primary{
+	font-weight: bold;
+	color: #0000ff; /* blue*/
+	background-color: #00ff00; /* green */
+}
+.form-text.text-muted {
+	color: #ffaa00 !important;
+}
