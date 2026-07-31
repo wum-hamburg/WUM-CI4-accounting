@@ -9,6 +9,7 @@ return [
 	'language' => 'Sprache',
 	'add_language' => 'Sprache hinzufügen',
 	'logout' => 'Abmelden',
+	'quittungsblock' => 'Quittungsblock',
 ];
 
 ?>

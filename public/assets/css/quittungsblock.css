@@ -1,0 +1,226 @@
+.quittung-sheet {
+	max-width: 720px;
+	margin: 0 auto;
+	padding: 1.25rem 1.5rem 1.75rem;
+	background: #fff;
+	border: 1px solid #ccc;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+	font-family: Arial, Helvetica, sans-serif;
+	color: #111;
+}
+
+.quittung-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 1rem;
+}
+
+.quittung-phone-label {
+	display: block;
+	font-size: 0.95rem;
+	font-weight: 700;
+	line-height: 1.1;
+}
+
+.quittung-phone-number {
+	display: block;
+	font-size: 2.6rem;
+	font-weight: 800;
+	letter-spacing: 0.02em;
+	line-height: 1;
+	margin-top: 0.15rem;
+}
+
+.quittung-art {
+	text-align: right;
+	flex: 0 0 auto;
+}
+
+.quittung-art-img {
+	display: block;
+	max-height: 88px;
+	width: auto;
+	margin-left: auto;
+}
+
+.quittung-nr {
+	margin-top: 0.25rem;
+	font-size: 0.95rem;
+	font-weight: 700;
+}
+
+.quittung-brand {
+	text-align: center;
+	margin-top: 0.35rem;
+}
+
+.quittung-brand-name {
+	font-size: 1.85rem;
+	font-weight: 800;
+	letter-spacing: 0.04em;
+	line-height: 1.1;
+}
+
+.quittung-brand-sub {
+	font-size: 1.25rem;
+	font-weight: 700;
+	margin-top: 0.1rem;
+}
+
+.quittung-rule {
+	border: 0;
+	border-top: 1px solid #111;
+	margin: 0.65rem 0 1rem;
+	opacity: 1;
+}
+
+.quittung-field {
+	display: flex;
+	align-items: baseline;
+	gap: 0.45rem;
+	margin-bottom: 0.7rem;
+}
+
+.quittung-field > label {
+	flex: 0 0 auto;
+	min-width: 4.2rem;
+	font-weight: 700;
+	font-size: 1rem;
+}
+
+.quittung-field > input[type="text"] {
+	flex: 1 1 auto;
+	border: 0;
+	border-bottom: 1px solid #111;
+	border-radius: 0;
+	background: transparent;
+	padding: 0.15rem 0.25rem;
+	font-size: 1rem;
+	outline: none;
+	min-width: 0;
+}
+
+.quittung-field > input[type="text"]:focus {
+	box-shadow: none;
+	border-bottom-color: #333;
+}
+
+.quittung-field > input[readonly] {
+	color: #111;
+}
+
+.quittung-row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem 1.5rem;
+	margin-bottom: 0.15rem;
+}
+
+.quittung-field-sm {
+	flex: 1 1 220px;
+}
+
+.quittung-field-md {
+	flex: 1 1 280px;
+}
+
+.quittung-field-sm > label,
+.quittung-field-md > label {
+	min-width: auto;
+}
+
+.quittung-suffix {
+	font-weight: 700;
+	white-space: nowrap;
+}
+
+.quittung-date-calendar,
+.quittung-field input[type="date"],
+.quittung-field input[type="time"] {
+	flex: 1 1 auto;
+	min-width: 9rem;
+	border: 0;
+	border-bottom: 1px solid #111;
+	border-radius: 0;
+	background: transparent;
+	padding: 0.15rem 0.25rem;
+	font-size: 1rem;
+	outline: none;
+}
+
+.quittung-field input[type="date"]:focus,
+.quittung-field input[type="time"]:focus {
+	box-shadow: none;
+	border-bottom-color: #333;
+}
+
+.quittung-signature-row {
+	align-items: flex-end;
+}
+
+.quittung-signature-pad-wrap {
+	flex: 1 1 auto;
+	min-width: 0;
+}
+
+#signature-pad {
+	display: block;
+	width: 100%;
+	height: 90px;
+	border: 0;
+	border-bottom: 1px solid #111;
+	background: #fafafa;
+	touch-action: none;
+	cursor: crosshair;
+}
+
+.quittung-signature-display {
+	flex: 1 1 auto;
+	min-height: 70px;
+	border-bottom: 1px solid #111;
+}
+
+.quittung-signature-display img {
+	max-height: 80px;
+	max-width: 100%;
+}
+
+.quittung-line-only {
+	display: block;
+	height: 1px;
+}
+
+@media print {
+	.no-print,
+	.navbar,
+	.card-footer,
+	nav {
+		display: none !important;
+	}
+
+	.quittung-sheet {
+		box-shadow: none;
+		border: 0;
+		max-width: 100%;
+		padding: 0;
+	}
+
+	body {
+		background: #fff;
+	}
+}
+
+@media (max-width: 576px) {
+	.quittung-phone-number {
+		font-size: 1.8rem;
+	}
+
+	.quittung-brand-name {
+		font-size: 1.35rem;
+	}
+
+	.quittung-header {
+		flex-direction: column;
+	}
+}

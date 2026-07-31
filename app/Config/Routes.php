@@ -24,3 +24,9 @@ $routes->get('users/create', 'UserManagement::create');
 $routes->post('users/update/(:num)', 'UserManagement::update/$1');
 $routes->get('users/delete/(:num)', 'UserManagement::delete/$1');
 
+// Quittungsblock (only username hansen)
+$routes->get('quittungsblock', 'Receipts::index');
+$routes->get('quittungsblock/neu', 'Receipts::create');
+$routes->post('quittungsblock/store', 'Receipts::store');
+$routes->get('quittungsblock/(:num)', 'Receipts::show/$1');
+

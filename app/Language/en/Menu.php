@@ -9,5 +9,6 @@ return [
 	'language' => 'Language',
 	'add_language' => 'Add Language',
 	'logout' => 'Logout',
+	'quittungsblock' => 'Receipt pad',
 ];
 ?>

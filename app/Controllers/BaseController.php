@@ -121,6 +121,14 @@ abstract class BaseController extends Controller
 		$menu = [
 			['label' => '-' . lang('Menu.dashboard'), 'route' => 'dashboard', 'class' => 'nav-link'],
 		];
+
+		if (session()->get('username') === 'hansen') {
+			$menu[] = [
+				'label' => '- <i class="fa-solid fa-receipt"></i> ' . lang('Menu.quittungsblock'),
+				'route' => 'quittungsblock',
+				'class' => 'nav-link',
+			];
+		}
 		
 		if ($rights == 'superadmin')
 		{
