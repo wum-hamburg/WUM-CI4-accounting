@@ -1,0 +1,13 @@
+# Disable directory browsing
+Options -Indexes
+
+# ----------------------------------------------------------------------
+# Redirect all requests to the public folder
+# Required when DocumentRoot points to www/ (UniformServer)
+# instead of the project's public/ folder (Raspberry Pi vhost)
+# ----------------------------------------------------------------------
+<IfModule mod_rewrite.c>
+	Options +FollowSymlinks
+	RewriteEngine On
+	RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>

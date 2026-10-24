@@ -1,0 +1,14 @@
+{
+    "job_id": "20260731075517_6b84f9b3",
+    "state": "done",
+    "progress": 100,
+    "message": "Sicherung abgeschlossen: backup_2026-07-31_07-55-22.zip",
+    "created_at": "2026-07-31T07:55:17+00:00",
+    "label": "Komplette Datenbank",
+    "done": true,
+    "error": false,
+    "artifacts": {
+        "sql": "C:\\UniServerZ\\www\\wum-ci4-accounting\\writable\\backups\\jobs\\20260731075517_6b84f9b3.sql",
+        "zip": "C:\\UniServerZ\\www\\wum-ci4-accounting\\writable\\backups\\backup_2026-07-31_07-55-22.zip"
+    }
+}

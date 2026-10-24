@@ -1,0 +1,17 @@
+{
+    "job_id": "20260813142653_f533d36d",
+    "state": "done",
+    "progress": 100,
+    "message": "Sicherung abgeschlossen: backup_2026-08-13_14-26-55.zip",
+    "created_at": "2026-08-13T14:26:53+00:00",
+    "label": "Pre-Restore Snapshot 2026-08-13 14:26:53",
+    "include_pdfs": true,
+    "upload_hetzner": false,
+    "done": true,
+    "error": false,
+    "artifacts": {
+        "sql": "C:\\UniServerZ\\www\\wum-ci4-accounting\\writable\\backups\\jobs\\20260813142653_f533d36d.sql",
+        "zip": "C:\\UniServerZ\\www\\wum-ci4-accounting\\writable\\backups\\backup_2026-08-13_14-26-55.zip",
+        "zip_name": "backup_2026-08-13_14-26-55.zip"
+    }
+}
