@@ -46,7 +46,7 @@ $RECYCLE.BIN/
 Vagrantfile
 
 #-------------------------
-# Temporary Files
+# Temporary Files / runtime data
 #-------------------------
 writable/cache/*
 !writable/cache/index.html
@@ -61,9 +61,27 @@ writable/uploads/*
 !writable/uploads/index.html
 
 writable/debugbar/*
-!writable/debugbar/.gitkeep
+!writable/debugbar/index.html
+
+# Generated documents & local backups (keep folder placeholders)
+writable/archives/**
+!writable/archives/**/index.html
+
+writable/backups/**
+!writable/backups/index.html
+
+# Created by `php spark setup` — do not commit
+writable/install.lock
+
+# Local PDF drafts & PHP per-dir config
+public/drafts/*
+!public/drafts/index.html
+public/.user.ini
 
 php_errors.log
+
+# Cursor local debug logs
+.cursor/debug*.log
 
 #-------------------------
 # User Guide Temp Files
@@ -126,3 +144,7 @@ _modules/*
 /phpunit*.xml
 wum-hamburg
 wum-hamburg.pub
+
+# Accidental nested bare clone
+WUM-CI4-accounting.git/
+
