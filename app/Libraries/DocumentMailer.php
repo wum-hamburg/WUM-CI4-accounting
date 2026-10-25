@@ -85,10 +85,9 @@ class DocumentMailer
             ' . $confirmationBlock . '
             <p>Bei Fragen wenden Sie sich bitte per E-Mail an mich.</p>
             <br>
-            <p>Ihr ' . esc($label) . ' wurde im PDF-Format erstellt. Durch einen Doppelklick auf den Anhang wird es automatisch<br>
-            mit einem PDF-Reader, z. B. Adobe Acrobat Reader, geöffnet. Sollten Sie keinen PDF-Reader installiert haben,<br>
-            können Sie den kostenlosen Adobe Acrobat Reader unter folgendem Link herunterladen:</p>
-            <p><a href="http://www.adobe.de/products/acrobat/readstep.html" target="_blank">http://www.adobe.de/products/acrobat/readstep.html</a></p>
+            <p>Diese E-Mail und der Anhang wurden von meiner eigenen Software erstellt und automatisch versendet.<br>
+            Hier geht es zur funktionsfähigen Demo:
+            <a href="https://demo.wum.hamburg/start" target="_blank">https://demo.wum.hamburg/start</a></p>
             <p>Bei Rückfragen stehe ich Ihnen gerne zur Verfügung.</p>
             <br>
             <div style="text-align: left;">

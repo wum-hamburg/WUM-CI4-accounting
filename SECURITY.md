@@ -4,7 +4,7 @@
 
 ### Unterstützte Versionen
 
-Die installierte Produktversion steht im App-Footer (z. B. `Version: 4.3.029`).
+Die installierte Produktversion steht im App-Footer (z. B. `Version: 4.3.031`).
 Security-Updates gelten für die **aktuelle Minor-Linie und die drei vorherigen**.
 
 | Version | Unterstützt        |
@@ -54,7 +54,7 @@ Die Nutzung erfolgt **auf eigenes Risiko**. Diese Richtlinie ergänzt die [MIT-L
 
 ### Supported versions
 
-The installed product version is shown in the app footer (e.g. `Version: 4.3.029`).
+The installed product version is shown in the app footer (e.g. `Version: 4.3.031`).
 Security updates apply to the **current minor line and the three previous ones**.
 
 | Version | Supported          |
