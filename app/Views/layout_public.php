@@ -18,7 +18,7 @@
 	</div>
 	<?= $this->renderSection('content') ?>
 	<footer class="text-center text-muted small mt-5 pt-3 border-top">
-		<p>&copy; 2026 Webseiten und mehr - Hamburg · Version 4.3.022</p>
+		<p>&copy; 2026 Webseiten und mehr - Hamburg · Version 4.3.029</p>
 		<p><a href="https://wum.hamburg/impressum/datenschutz" target="_blank" rel="noopener noreferrer">Datenschutzerklärung</a></p>
 	</footer>
 </div>
