@@ -1,0 +1,3 @@
+{"sessionId":"6953dd","hypothesisId":"H1","location":"import_upload.php:init","message":"previewPanel at script init","data":{"previewPanelFound":false},"timestamp":1787922945027}
+{"sessionId":"6953dd","runId":"post-fix","hypothesisId":"H1","location":"import_upload.php:showPdfPreview","message":"showPdfPreview called","data":{"previewPanelFound":true,"hasUrl":true},"timestamp":1787922960379}
+{"sessionId":"6953dd","hypothesisId":"H4","location":"import_upload.php:response","message":"parse response preview fields","data":{"preview_type":"pdf","has_preview_url":true,"ok":true},"timestamp":1787922960380}

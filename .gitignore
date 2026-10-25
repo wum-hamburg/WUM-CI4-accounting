@@ -144,7 +144,3 @@ _modules/*
 /phpunit*.xml
 wum-hamburg
 wum-hamburg.pub
-
-# Accidental nested bare clone
-WUM-CI4-accounting.git/
-
